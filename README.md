@@ -1,20 +1,37 @@
-# latex-rapport-scientifique
-Article scientifique sur les communications interplanétaires
+# Readme
+This repository contains a scientific article written in LaTeX, under the IEEE standard. The article is entitled "Interplanetary Communication" and focuses on the challenges of creating an interplanetary network, particularly for the colonization of Mars.
 
-Résumé
-Cet article scientifique rédigé en LaTeX sous la norme IEEE traite du sujet de la communication interplanétaire dans la perspective d'une colonisation de Mars. L'article commence par expliquer les enjeux et les défis de la création d'un réseau interplanétaire pour relier la Terre à Mars et soutenir la vie humaine sur cette planète. Ensuite, il fait un état des lieux des technologies de communication actuellement utilisées pour les missions spatiales et met en avant leurs limites. L'article discute également des conjonctions solaires supérieures et de leur impact sur les communications interplanétaires. Enfin, l'article explore les perspectives d'amélioration de la communication interplanétaire en mettant en avant les avancées récentes dans le domaine, comme les satellites "Relais" sur les "Points de Lagrange".
+## Article Summary
+The exploration of space and the possibility of colonizing other planets have always been an intriguing topic. Mars, in particular, has been considered a potential candidate for such colonization, due to its proximity to Earth and some of its characteristics that make it relatively habitable for humans. However, creating an interplanetary network that is capable of connecting Earth to Mars and supporting human life on the red planet poses many challenges.
 
-Introduction
-Depuis l'avènement du "New Space" et l'intérêt croissant pour l'exploration et la colonisation de l'espace, l'idée d'un réseau interplanétaire capable de relier la Terre à Mars et de soutenir la vie humaine sur cette planète a gagné en popularité. Cependant, la création d'un tel réseau comporte de nombreux enjeux et défis, qui doivent être pris en compte pour garantir son efficacité et sa durabilité à long terme.
+This article first discusses the current communication technologies used in space missions, highlighting their limitations. It then explores the impact of superior solar conjunctions on communications. Finally, the article discusses the prospects for improving interplanetary communication, highlighting recent advances in the field, such as the Relay satellites on Lagrange points, and stressing the importance of international cooperation for creating an efficient and sustainable interplanetary network.
 
-Les technologies de communication actuellement utilisées pour les missions spatiales
-Dans cette section, l'article fait un état des lieux des technologies de communication actuellement utilisées pour les missions spatiales. Il met en avant les limites de ces technologies, en particulier leur faible débit de données, leur latence élevée et leur manque de fiabilité dans l'environnement hostile de l'espace.
+## Document Structure
+The article is structured as follows:
 
-Les conjonctions solaires supérieures et leur impact sur les communications interplanétaires
-Dans cette section, l'article discute des conjonctions solaires supérieures et de leur impact sur les communications interplanétaires. Il explique comment ces phénomènes peuvent causer des perturbations et des interruptions dans les communications entre la Terre et Mars, ce qui rend difficile la maintenance du réseau interplanétaire.
+  ### Introduction :
+> The article introduces the challenges of creating an interplanetary network for the colonization of Mars and highlights the importance of developing new communication technologies that can function in the harsh space environment.
 
-Perspectives d'amélioration de la communication interplanétaire
-Dans cette section, l'article explore les perspectives d'amélioration de la communication interplanétaire. Il met en avant les avancées récentes dans le domaine, comme les satellites "Relais" sur les "Points de Lagrange", qui peuvent aider à améliorer la fiabilité et la durabilité du réseau interplanétaire. L'article souligne également l'importance de la coopération internationale pour la création d'un tel réseau.
+  ### Current Communication Technologies: 
+> This section discusses the current communication technologies used in space missions and their limitations.
 
-Conclusion
-En conclusion, cet article a montré les enjeux et les défis de la création d'un réseau interplanétaire pour relier la Terre à Mars et soutenir la vie humaine sur cette planète. Il a également mis en avant les limites des technologies de communication actuellement utilisées pour les missions spatiales, discuté des conjonctions solaires supérieures et de leur impact sur les communications interplanétaires, et exploré les perspectives d'amélioration de la communication interplanétaire. Enfin, il a souligné l'importance de la coopération internationale pour la création d'un tel réseau.
+  ### Impact of Superior Solar Conjunctions: 
+> This section explores the impact of superior solar conjunctions on communications.
+
+  ### Prospects for Improving Interplanetary Communication: 
+> This section highlights recent advances in interplanetary communication and discusses the importance of international cooperation for creating an efficient and sustainable interplanetary network.
+
+  ### Conclusion: 
+> The conclusion summarizes the key points discussed in the article and emphasizes the need for continued research and development in interplanetary communication.
+
+## How to Compile
+To compile the LaTeX document, you will need a LaTeX distribution installed on your computer. The article was written using the IEEEtran document class, which is available on CTAN.
+
+To compile the document, you can use the following command:
+
+`pdflatex interplanetary_communication.tex`
+
+This will create a PDF file named interplanetary_communication.pdf.
+
+## License
+This article is licensed under the Creative Commons Attribution 4.0 International License. You are free to share and adapt this work for any purpose, as long as you give appropriate credit to the original author and provide a link to the license. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
